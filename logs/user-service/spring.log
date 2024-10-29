@@ -1,0 +1,60 @@
+15:30:01:965  INFO 6060 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.24 on LAPTOP-I4VTFAQ4 with PID 6060 (D:\idea\hmall\user-service\target\classes started by 16574 in D:\idea\hmall)
+15:30:01:974 DEBUG 6060 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:30:01:974  INFO 6060 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+15:30:03:118  INFO 6060 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=92f09f72-2d1c-31f6-8b62-0401e424675e
+15:30:03:496  INFO 6060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+15:30:03:497  INFO 6060 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+15:30:03:497  INFO 6060 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+15:30:03:497  INFO 6060 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:30:03:500  INFO 6060 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+15:30:03:507  INFO 6060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:30:03:508  INFO 6060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:30:03:647  INFO 6060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:30:03:647  INFO 6060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1628 ms
+15:30:06:542  INFO 6060 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:30:07:173  WARN 6060 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+15:30:07:283  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of b5860e74-542a-4a22-bbb9-343f5d271d4d
+15:30:07:320  INFO 6060 --- [main] org.reflections.Reflections              : Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+15:30:07:341  INFO 6060 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+15:30:07:352  INFO 6060 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+15:30:07:355  WARN 6060 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:30:07:362  INFO 6060 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+15:30:07:373  INFO 6060 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+15:30:07:388  INFO 6060 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 2 keys and 8 values 
+15:30:07:390  WARN 6060 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:30:07:391  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] RpcClient init label, labels = {module=naming, source=sdk}
+15:30:07:393  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:30:07:393  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:30:07:394  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:30:07:396  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Try to connect to server on start up, server: {serverIp = '192.168.1.144', server main port = 8848}
+15:30:09:283  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Success to connect to server [192.168.1.144:8848] on start up, connectionId = 1729529283429_192.168.1.154_62588
+15:30:09:283  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:30:09:283  INFO 6060 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Notify connected event to listeners.
+15:30:09:285  INFO 6060 --- [main] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$951/0x000000080075e040
+15:30:09:338  INFO 6060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+15:30:09:349  INFO 6060 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.1.154:8084 register finished
+15:30:09:817  INFO 6060 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Receive server push request, request = NotifySubscriberRequest, requestId = 68
+15:30:09:821  INFO 6060 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b5860e74-542a-4a22-bbb9-343f5d271d4d] Ack server push request, request = NotifySubscriberRequest, requestId = 68
+15:30:09:915  INFO 6060 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:30:09:917  INFO 6060 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:30:09:936  INFO 6060 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:30:10:026  INFO 6060 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 9.717 seconds (JVM running for 11.44)
+15:56:53:193  INFO 6060 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:56:53:193  INFO 6060 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:56:53:197  INFO 6060 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+15:56:53:340  INFO 6060 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:56:53:602  INFO 6060 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:56:53:609 DEBUG 6060 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+15:56:53:627 DEBUG 6060 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+15:56:53:652 DEBUG 6060 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+15:57:03:601 DEBUG 6060 --- [http-nio-8084-exec-4] c.h.u.mapper.AddressMapper.selectList    : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+15:57:03:602 DEBUG 6060 --- [http-nio-8084-exec-4] c.h.u.mapper.AddressMapper.selectList    : ==> Parameters: 1(Long)
+15:57:03:606 DEBUG 6060 --- [http-nio-8084-exec-4] c.h.u.mapper.AddressMapper.selectList    : <==      Total: 4
+15:59:16:439  INFO 6060 --- [http-nio-8084-exec-3] c.h.user.service.impl.UserServiceImpl    : 开始扣款
+15:59:16:443 DEBUG 6060 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectById    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE id=?
+15:59:16:443 DEBUG 6060 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectById    : ==> Parameters: 1(Long)
+15:59:16:446 DEBUG 6060 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectById    : <==      Total: 1
+15:59:16:533 DEBUG 6060 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.updateMoney   : ==>  Preparing: update user set balance = balance - 49100 where id = ?
+15:59:16:533 DEBUG 6060 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.updateMoney   : ==> Parameters: 1(Long)
+15:59:16:537 DEBUG 6060 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.updateMoney   : <==    Updates: 1
+15:59:16:537  INFO 6060 --- [http-nio-8084-exec-3] c.h.user.service.impl.UserServiceImpl    : 扣款成功
